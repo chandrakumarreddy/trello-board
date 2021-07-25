@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background: #f1f2b5;
+  background: -webkit-linear-gradient(to right, #f1f2b5, #135058);
+  background: linear-gradient(to right, #f1f2b5, #135058);
+  height: 100%;
+  overflow-x: scroll;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-fixed nav {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.flex-vertical-center {
+  display: flex !important;
+  align-items: center;
+}
+
+.flex-horizantal-center {
+  justify-content: center;
+}
+
+.mr-2 {
+  margin-right: 8px;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.task-column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 0;
+  margin: 1rem;
+  list-style-type: none;
+}
+
+.transparent-wrapper {
+  height: 85vh;
+  margin: 0;
+  padding: 0;
+  margin-right: 1rem;
+}
+
+.column-wrapper {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 0 15px 15px 18px;
+  min-width: 350px;
+  max-width: 400px;
+  border-radius: 5px;
+  margin: 0px;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.add-column {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 8px;
+}
+
+/* column */
+.list {
+  list-style-type: none;
+  padding-left: 0;
+  background: #fff;
+  margin: 3px 0 3px 0;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.name-header {
+  padding: 0;
+  margin: 0;
+}
+
+.btn-small {
+  margin-top: 6px;
+}
+
+.confirm-btn {
+  font-size: 10px !important;
+  margin: 5px;
+  height: 24px !important;
+  line-height: 24px !important;
+  padding: 0 0.5rem !important;
+}
+
+.add-update-button {
+  background-color: rgb(100, 149, 237) !;
+}
+
+.cancel-button {
+  background-color: rgb(255, 99, 71);
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* card */
+.task-card {
+  background: #fff59d;
+  margin: 0 0 16px 0;
+  padding: 10px;
+  border-radius: 3px;
+  word-wrap: break-word;
+  cursor: pointer;
+  width: 100%;
+  float: left;
+}
+
+.partition {
+  background: black;
+  margin: 5px 0 15px 0;
+  padding: 1px 0 1px 0;
+  opacity: 0.2;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.add-column-form {
+  padding: 10px;
+  box-shadow: 2px 2px 10px 1px #888888;
+}
+
+.task-card:hover {
+  background-color: #e1f5fe;
+}
+
+.column-header {
+  margin: 0 auto;
+  padding: 5px;
+  word-wrap: break-word;
+  width: 90%;
+  float: left;
+}
+
+.column-header-del {
+  width: 10%;
+  float: left;
+  margin: -5px auto;
+  padding: 0;
+  cursor: pointer;
+  color: #546e7a;
+}
+
+.relative {
+  position: relative;
+}
+
+.bin {
+  text-align: right;
+  display: inline-block;
+}
+
+img {
+  cursor: pointer;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+p {
+  margin: 4px 0;
+}
